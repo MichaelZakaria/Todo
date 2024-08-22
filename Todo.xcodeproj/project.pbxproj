@@ -14,6 +14,8 @@
 		F478A9B12C47AC33002B6418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F478A9B02C47AC33002B6418 /* Assets.xcassets */; };
 		F478A9B42C47AC33002B6418 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F478A9B32C47AC33002B6418 /* Base */; };
 		F478A9B72C47AC33002B6418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F478A9B62C47AC33002B6418 /* main.m */; };
+		F4FB6E082C47B2A800E08565 /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6E072C47B2A800E08565 /* AddNoteViewController.m */; };
+		F4FB6E142C47CE4200E08565 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6E132C47CE4200E08565 /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		F478A9B32C47AC33002B6418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F478A9B52C47AC33002B6418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F478A9B62C47AC33002B6418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4FB6E062C47B2A800E08565 /* AddNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		F4FB6E072C47B2A800E08565 /* AddNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		F4FB6E122C47CE4200E08565 /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		F4FB6E132C47CE4200E08565 /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				F478A9B22C47AC33002B6418 /* LaunchScreen.storyboard */,
 				F478A9B52C47AC33002B6418 /* Info.plist */,
 				F478A9B62C47AC33002B6418 /* main.m */,
+				F4FB6E062C47B2A800E08565 /* AddNoteViewController.h */,
+				F4FB6E072C47B2A800E08565 /* AddNoteViewController.m */,
+				F4FB6E122C47CE4200E08565 /* Note.h */,
+				F4FB6E132C47CE4200E08565 /* Note.m */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -146,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FB6E142C47CE4200E08565 /* Note.m in Sources */,
 				F478A9AC2C47AC32002B6418 /* ViewController.m in Sources */,
 				F478A9A62C47AC32002B6418 /* AppDelegate.m in Sources */,
 				F478A9B72C47AC33002B6418 /* main.m in Sources */,
 				F478A9A92C47AC32002B6418 /* SceneDelegate.m in Sources */,
+				F4FB6E082C47B2A800E08565 /* AddNoteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHWQF7TL3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -324,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHWQF7TL3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
